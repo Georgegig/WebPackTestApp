@@ -1,0 +1,29 @@
+{
+  "name": "webpacktestapp",
+  "version": "1.0.0",
+  "description": "Test app for webpack",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Georgegig/WebPackTestApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Georgegig/WebPackTestApp/issues"
+  },
+  "homepage": "https://github.com/Georgegig/WebPackTestApp#readme",
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-preset-es2015": "^6.18.0",
+    "jshint": "^2.9.4",
+    "jshint-loader": "^0.8.3",
+    "node-libs-browser": "^1.0.0",
+    "strip-loader": "^0.1.2",
+    "webpack": "^1.13.3"
+  }
+}
